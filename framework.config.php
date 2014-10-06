@@ -1,14 +1,14 @@
 <?php
 define('APP_DB_DRIVER','');
-define('APP_DB_ENGINE','MyISAM');
-define('APP_DB_HOST','');
-define('APP_DB_DATABASE','');
-define('APP_DB_USER','');
-define('APP_DB_PASS','');
+define('APP_DB_ENGINE','innodb');
+define('APP_DB_HOST','localhost');
+define('APP_DB_DATABASE','cerberus6');
+define('APP_DB_USER','cerb6');
+define('APP_DB_PASS','WDpass1');
 define('APP_DB_PCONNECT',false);
 
-define('LANG_CHARSET_CODE','iso-8859-1'); // iso-8859-1, utf-8
-define('DB_CHARSET_CODE','latin1'); // latin1, utf8
+define('LANG_CHARSET_CODE','iso-8859-1');
+define('DB_CHARSET_CODE','latin1');
 
 // Memcached (high-performance shared memory cache)
 // optional, memcached 1.2.x + extension must be enabled
